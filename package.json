@@ -1,0 +1,37 @@
+{
+  "name": "trunks-js",
+  "version": "0.0.1",
+  "description": "A drop-dead simple date/time library. ",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorrl/trunks-js.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "object"
+  ],
+  "author": "Trevor Lemeron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevorrl/trunks-js/issues"
+  },
+  "homepage": "https://github.com/trevorrl/trunks-js#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "concurrently": "^8.2.2",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "rollup": "^4.20.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  },
+  "type": "module"
+}
